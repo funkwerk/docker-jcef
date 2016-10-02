@@ -3,8 +3,8 @@
 
 # funkwerk-jcef
 
-JCEF Browser Docker Image
+JCEF Browser Docker Image based on https://bitbucket.org/chromiumembedded/java-cef
 
 ## Usage
 
-docker run -t funkwerk/jcef https://github.com/
+docker run -ti -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix funkwerk/jcef
