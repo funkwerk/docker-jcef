@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:15.04
 MAINTAINER info@funkwerk-itk.com
 
 ENV VERSION=8 UPDATE=91 BUILD=14
