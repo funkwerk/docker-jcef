@@ -51,4 +51,4 @@ RUN mkdir -p jcef \
     && ./compile.sh ${ARCHITECTURE}
 
 WORKDIR "/jcef/src/tools/"
-ENTRYPOINT ["./run.sh", "${ARCHITECTURE}", "${VARIANT}", "simple"]
+CMD ["sh", "-c", "./run.sh ${ARCHITECTURE} ${VARIANT} simple"]
